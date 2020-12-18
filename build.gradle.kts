@@ -20,7 +20,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
     testImplementation("io.kotest:kotest-property:4.3.2")
     testImplementation("io.kotest:kotest-framework-api:4.3.2")
-    testRuntimeOnly("io.kotest:kotest-runner-junit5:4.3.2")
+    testImplementation("io.kotest:kotest-runner-junit5:4.3.2")
 }
 
 tasks {
